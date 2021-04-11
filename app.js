@@ -12,10 +12,10 @@ var users = require('./routes/users');
 var mysql = require("mysql");
 
 var con = mysql.createConnection({
-    host: "localhost",
+    host: "192.168.56.104",
     user: "root",
-    password: "123456",
-    database: "test",
+    password: "Aa1234",
+    database: "stock",
 });
 
 con.connect(function (err) {
